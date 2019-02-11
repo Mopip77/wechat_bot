@@ -121,5 +121,5 @@ if __name__ == '__main__':
             f.write('date, user, operate, data\n')
             f.close()
     
-    itchat.auto_login(enableCmdQR=-2, hotReload=True)
+    itchat.auto_login(enableCmdQR=2, hotReload=True)
     itchat.run()
